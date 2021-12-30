@@ -41,6 +41,8 @@ Use case ends.
 &nbsp;&nbsp;&nbsp;&nbsp;    Steps 3a1-3a2 are repeated until the newly entered data is correct.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;    Use case resumes from step 4.<br>
 
+<br><br>
+
 Use case: UC02 : Delete Task
 
 *MSS*
@@ -56,6 +58,8 @@ Use case ends.
 
 Use case ends.
 
+<br><br>
+
 Use case: UC03 : Sort Task
 
 *MSS*
@@ -63,6 +67,8 @@ Use case: UC03 : Sort Task
   2. StudenTask displays the tasks in the sorted order
 
 Use case ends.
+
+<br><br>
 
 Use case: UC04 : Login Account
 
@@ -80,6 +86,8 @@ Use case ends.
 &nbsp;&nbsp;&nbsp;&nbsp;    Steps 3a1-3a2 are repeated until the newly entered data is correct.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;    Use case resumes from step 3.<br>
   
+<br><br>
+
 Use case: UC05 : Mark task as completed
 
 *MSS*
