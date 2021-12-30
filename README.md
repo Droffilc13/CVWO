@@ -21,11 +21,9 @@ Backend will be written in *Rails* and Frontend will be in *React*.
 
 ## Use Cases
 
-System : StudenTask
+<strong> For the use cases below, unless otherwise mentioned, the system is *StudenTask* and the actor is the user of the *StudenTask*. </strong>
 
 Use case: UC01 : Add Task
-
-Actor: User
 
 *MSS*
   1. User chooses to add task.
@@ -41,12 +39,8 @@ Use case ends.
 &nbsp;&nbsp;&nbsp;&nbsp;    3a2. User enters new data.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;    Steps 3a1-3a2 are repeated until the newly entered data is correct.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;    Use case resumes from step 4.<br>
-    
-System : StudenTask
 
 Use case: UC02 : Delete Task
-
-Actor: User
 
 *MSS*
   1. User chooses a task to delete.
@@ -59,6 +53,13 @@ Use case ends.
 &nbsp;&nbsp; 2a. User does not confirm the deletion.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;    2a1. StudenTask goes back to the task display.
 
+Use case ends.
+
+Use case: UC03 : Sort Task
+
+*MSS*
+  1. User chooses a criteria to sort the task by
+  2. StudenTask displays the tasks in the sorted order
 Use case ends.
 
 
