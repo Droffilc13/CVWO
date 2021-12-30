@@ -11,8 +11,8 @@ Backend will be written in *Rails* and Frontend will be in *React*.
 
 ## User Stories
 
-| As a | I want to | so that | Priority
-| :--: | :-------: | :-----: | *** |
+| As a | I want to | so that | Priority |
+| :--: | :-------: | :-----: | :------: |
 | user | record my task | I can view them. | *** |
 | user | delete my task | I can reduce clutter. | *** |
 | user | login to my account | access my personalised task. | ** |
