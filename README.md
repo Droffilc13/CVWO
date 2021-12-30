@@ -72,4 +72,18 @@ Use case: UC04 : Login Account
   3. StudenTask authenticates and allows user to access account. 
 
 Use case ends.
+
+*Extensions* <br><br>
+&nbsp;&nbsp; 3a. StudenTask detects an error in the entered data.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    3a1. StudenTask requests for the correct data.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    3a2. User enters new data.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    Steps 3a1-3a2 are repeated until the newly entered data is correct.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    Use case resumes from step 3.<br>
   
+Use case: UC05 : Mark task as completed
+
+*MSS*
+  1. User chooses a task to mark as completed.
+  2. StudenTask archives the task and marks it as completed.
+
+Use case ends.
